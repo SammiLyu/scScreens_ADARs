@@ -14,3 +14,6 @@ Code to reproduce the analysis seen in manuscript: Charting and probing the acti
 ## Data Availability
 The raw and processed data generated from this study are available at Gene Expression Omnibus with accession code GSE248941. [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248941] 
 
+## General Instructions
+Please refer to correspondent folders for reproducing figures of interest. Scripts ordered by numbers should be run in orders, e.g. please run "F01_01_xxx" before "F01_02_xxxx". Some output tables for Alu Editing Index and expression of ADARs are included in relevant folders and can be readily used.
+

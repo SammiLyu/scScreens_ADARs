@@ -10,3 +10,7 @@ Code to reproduce the analysis seen in manuscript: Charting and probing the acti
 4. Counts to TPM: https://gist.github.com/slowkow/c6ab0348747f86e2748b
 5. ivPerturb Seq: https://github.com/klarman-cell-observatory/ivPerturbSeq
 6. Seurat: https://github.com/satijalab/seurat
+
+## Data Availability
+The raw and processed data generated from this study are available at Gene Expression Omnibus with accession code GSE248941. [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248941] 
+

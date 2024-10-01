@@ -1,0 +1,276 @@
+library.ID,Used.library.,Species..strain.,Organ,Developmental.stage,Sex,Sequencing.runs..machine.run.lane.,Stage..detail.,Total.number.reads,Total.number.aligned.reads,X..aligned.reads,Extraction.protocol,RQN,RIN,HDBR.ID,DaysPostConception,Developmental_stage_sum,Stage,sample_rpkm,AEI
+115,3587,Yes,Human,Forebrain/Cerebrum,4wpc,Male,OBIWAN 149 lane 8,CS13,30627586,30480673,100%,QIAgen RNeasy DTT,9.2,NA,11993,28,Early Gestation,Prenatal,Brain.4wpc.1,2.61983723957
+121,5624,Yes,Human,Forebrain/Cerebrum,4wpc,Male,OBIWAN 171 lane 3,4 weeks,27384990,27089040,99%,QIAgen RNeasy DTT,9.2,NA,12179,28,Early Gestation,Prenatal,Brain.4wpc.2,1.49612022752
+128,6096,Yes,Human,Forebrain/Cerebrum,4wpc,Male,OBIWAN 203 lane 6,4 weeks,51219601,50535832,99%,QIAgen RNeasy DTT,6.8,NA,12980,28,Early Gestation,Prenatal,Brain.4wpc.3,1.55765214986
+133,5628,Yes,Human,Forebrain/Cerebrum,5wpc,Female,OBIWAN 171 lane 4,5 weeks,44857593,44184628,98%,QIAgen RNeasy DTT,9.4,NA,12117,35,Early Gestation,Prenatal,Brain.5wpc.4,1.90629567141
+130,3669,Yes,Human,Forebrain/Cerebrum,5wpc,Male,WINDU 47 lane 4,CS16,29453432,29217186,99%,QIAgen RNeasy DTT,9.7,NA,11959,37,Early Gestation,Prenatal,Brain.5wpc.5,1.54043768135
+161,3571,Yes,Human,Forebrain/Cerebrum,7wpc,Female,OBIWAN 149 lane 7,CS20,42392311,41827355,99%,QIAgen RNeasy DTT,9.4,NA,12080,51,Early Gestation,Prenatal,Brain.7wpc.6,1.39670800173
+158,2026,Yes,Human,Forebrain/Cerebrum,7wpc,Male,VADER 144 lane 2 / OBIWAN 100 lane 5,CS21,57951338,56842210,98%,QIAgen RNeasy QIAzol,7.9,NA,11731,52,Early Gestation,Prenatal,Brain.7wpc.7,2.14517698208
+166,3636,Yes,Human,Forebrain/Cerebrum,7wpc,Male,WINDU 46 lane 1,CS21,33397364,32733635,98%,QIAgen RNeasy DTT,8.7,NA,11965,52,Early Gestation,Prenatal,Brain.7wpc.8,1.38379033399
+188,2034,Yes,Human,Forebrain/Cerebrum,8wpc,Female,VADER 144 lane 3,CS 22,24499984,24319166,99%,QIAgen RNeasy QIAzol,7.2,NA,11739,54,Early Gestation,Prenatal,Brain.8wpc.9,1.85016149746
+189,2035,Yes,Human,Forebrain/Cerebrum,8wpc,Male,VADER 144 lane 3 / OBIWAN 100 lane 5,8 weeks,39720026,39417793,99%,QIAgen RNeasy QIAzol,7.7,NA,11740,56,Early Gestation,Prenatal,Brain.8wpc.10,3.24929196124
+192,2080,Yes,Human,Forebrain/Cerebrum,8wpc,Male,VADER 145 lane 3,CS 23,50190779,49637059,99%,QIAgen RNeasy QIAzol,7.7,NA,11785,57,Early Gestation,Prenatal,Brain.8wpc.11,2.07633888248
+197,2086,Yes,Human,Forebrain/Cerebrum,8wpc,Female,VADER 145 lane 3 / VADER 194 lane 3,CS 23,26361667,26016330,99%,QIAgen RNeasy QIAzol,7.1,NA,11786,57,Early Gestation,Prenatal,Brain.8wpc.12,1.52364216208
+203,2041,Yes,Human,Forebrain/Cerebrum,9wpc,Male,OBIWAN 133 lane 8,9 weeks,34681184,33775726,97%,QIAgen RNeasy QIAzol,6.9,NA,11745,63,Early Gestation,Prenatal,Brain.9wpc.13,1.45305052306
+204,2050,Yes,Human,Forebrain/Cerebrum,9wpc,Female,VADER 144 lane 5,9 weeks,18388987,18237827,99%,QIAgen RNeasy QIAzol,7.6,NA,11758,63,Early Gestation,Prenatal,Brain.9wpc.14,1.48256857747
+209,2068,Yes,Human,Forebrain/Cerebrum,9wpc,Male,VADER 144 lane 5,9 weeks,20656299,20522787,99%,QIAgen RNeasy QIAzol,7.3,NA,11768,63,Early Gestation,Prenatal,Brain.9wpc.15,1.53742643907
+12,5664,Yes,Human,Forebrain/Cerebrum,10wpc,Female,WINDU 67 lane 3,10 weeks,35951148,35671093,99%,QIAgen RNeasy DTT,NA,NA,12149,70,Early Gestation,Prenatal,Brain.10wpc.16,2.05416436743
+23,2047,Yes,Human,Forebrain/Cerebrum,11wpc,Male,VADER 144 lane 4,11 weeks,24142938,23948104,99%,QIAgen RNeasy QIAzol,7.3,NA,11755,77,Late Gestation,Prenatal,Brain.11wpc.17,1.63873157126
+27,2111,Yes,Human,Forebrain/Cerebrum,11wpc,Male,VADER 145 lane 5,11 weeks,23534747,22800625,97%,QIAgen RNeasy QIAzol,8.1,NA,11798,77,Late Gestation,Prenatal,Brain.11wpc.18,1.81332946095
+37,5952,Yes,Human,Forebrain/Cerebrum,11wpc,Male,OBIWAN 203 lane 6,11 weeks,21292612,21032682,99%,QIAgen RNeasy DTT,NA,NA,12718,77,Late Gestation,Prenatal,Brain.11wpc.19,1.44791849857
+38,5953,Yes,Human,Forebrain/Cerebrum,11wpc,Female,OBIWAN 203 lane 5,11 weeks,28323433,27954335,99%,QIAgen RNeasy DTT,NA,NA,12748,77,Late Gestation,Prenatal,Brain.11wpc.20,1.47690561888
+48,5721,Yes,Human,Forebrain/Cerebrum,12wpc,Male,OBIWAN 179 lane 8,12 weeks,25827995,25604285,99%,QIAgen RNeasy DTT,8.9,NA,12368,84,Late Gestation,Prenatal,Brain.12wpc.21,1.48315103212
+57,5711,Yes,Human,Forebrain/Cerebrum,13wpc,Male,WINDU 71 lane 1,13 weeks,29726888,29515309,99%,QIAgen RNeasy DTT,5.4,NA,12525,91,Late Gestation,Prenatal,Brain.13wpc.22,2.39066693098
+63,5939,Yes,Human,Forebrain/Cerebrum,13wpc,Male,OBIWAN 198 lane 4,13 weeks,28019227,27868861,99%,QIAgen RNeasy DTT,8.5,NA,12715,91,Late Gestation,Prenatal,Brain.13wpc.23,2.03577204492
+69,5955,Yes,Human,Forebrain/Cerebrum,13wpc,Female,OBIWAN 203 lane 5,13 weeks,32990954,32713821,99%,QIAgen RNeasy DTT,NA,NA,12760,91,Late Gestation,Prenatal,Brain.13wpc.24,1.58944446331
+75,5665,Yes,Human,Forebrain/Cerebrum,16wpc,Female,OBIWAN 217 lane 6,16 weeks,50381363,50031723,99%,QIAgen RNeasy DTT,8.7,NA,12411,112,Late Gestation,Prenatal,Brain.16wpc.25,1.7520877641
+85,5951,Yes,Human,Forebrain/Cerebrum,16wpc,Male,OBIWAN 198 lane 2,16 weeks,29444404,29259657,99%,QIAgen RNeasy DTT,NA,NA,12866,112,Late Gestation,Prenatal,Brain.16wpc.26,1.77756457454
+92,5667,Yes,Human,Forebrain/Cerebrum,18wpc,Male,WINDU 67 lane 3,18 weeks,30438935,29852996,98%,QIAgen RNeasy DTT,8.8,NA,12243,126,Late Gestation,Prenatal,Brain.18wpc.27,1.88527717618
+98,5768,Yes,Human,Forebrain/Cerebrum,19wpc,Male,WINDU 67 lane 4,19 weeks,48402606,48164638,100%,QIAgen RNeasy DTT,6.2,NA,11875,133,Late Gestation,Prenatal,Brain.19wpc.28,1.60910957813
+105,5782,Yes,Human,Forebrain/Cerebrum,19wpc,Female,WINDU 71 lane 1,19 weeks,37698339,37380278,99%,QIAgen RNeasy DTT,9.2,NA,12545,133,Late Gestation,Prenatal,Brain.19wpc.29,2.17184139015
+107,5960,Yes,Human,Forebrain/Cerebrum,19wpc,Male,OBIWAN 206 lane 8,19 weeks,30327065,29924991,99%,QIAgen RNeasy DTT,NA,NA,11581,133,Late Gestation,Prenatal,Brain.19wpc.30,1.66062663645
+108,5668,Yes,Human,Forebrain/Cerebrum,20wpc,Male,WINDU 67 lane 3,20 weeks,16822979,16633290,99%,QIAgen RNeasy DTT,6.4,NA,11589,140,Late Gestation,Prenatal,Brain.20wpc.31,1.73522875247
+109,5770,Yes,Human,Forebrain/Cerebrum,20wpc,Female,WINDU 71 lane 1,20 weeks,49270854,48911042,99%,QIAgen RNeasy DTT,8,NA,12034,140,Late Gestation,Prenatal,Brain.20wpc.32,1.78988614975
+246,5892,Yes,Human,Forebrain/Cerebrum,newborn,Male,OBIWAN 198 lane 6,4 days post birth,23864351,23625936,99%,QIAgen RNeasy DTT,8.1,NA,NA,284,Newborn - Teenager,Postnatal,Brain.newborn.33,2.53436765371
+247,5894,Yes,Human,Forebrain/Cerebrum,newborn,Female,OBIWAN 203 lane 6,15 days post birth,23772986,23263712,98%,QIAgen RNeasy DTT,7.2,NA,NA,295,Newborn - Teenager,Postnatal,Brain.newborn.34,2.85848965369
+237,5542,Yes,Human,Forebrain/Cerebrum,newborn,Female,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,19 days post birth,34238433,34017058,99%,QIAgen RNeasy QIAzol,NA,NA,NA,299,Newborn - Teenager,Postnatal,Brain.newborn.35,3.50949770671
+219,5539,Yes,Human,Forebrain/Cerebrum,infant,Male,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,221 days post birth,78441574,77887927,99%,QIAgen RNeasy QIAzol,NA,NA,NA,501,Newborn - Teenager,Postnatal,Brain.infant.37,2.892844392
+283,5543,Yes,Human,Forebrain/Cerebrum,toddler,Female,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,2 years post birth,57094910,56676856,99%,QIAgen RNeasy QIAzol,NA,NA,NA,1010,Newborn - Teenager,Postnatal,Brain.toddler.38,3.08561044342
+287,5837,Yes,Human,Forebrain/Cerebrum,toddler,Male,OBIWAN 200 lane 5,4 years post birth,34844843,33246832,95%,QIAgen RNeasy DTT,6.5,NA,NA,1740,Newborn - Teenager,Postnatal,Brain.toddler.39,2.4999163557
+291,5904,Yes,Human,Forebrain/Cerebrum,toddler,Male,OBIWAN 200 lane 7,4 years post birth,25644460,25092543,98%,QIAgen RNeasy DTT,6.8,NA,NA,1740,Newborn - Teenager,Postnatal,Brain.toddler.40,3.30454023758
+263,5569,Yes,Human,Forebrain/Cerebrum,school,Male,WINDU 52 lane 8,7 years post birth,44770441,31722344,71%,QIAgen RNeasy QIAzol,NA,NA,NA,2835,Newborn - Teenager,Postnatal,Brain.school.41,3.4968699598
+260,5537,Yes,Human,Forebrain/Cerebrum,school,Male,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,8 years post birth,23687506,23552631,99%,QIAgen RNeasy QIAzol,NA,NA,NA,3200,Newborn - Teenager,Postnatal,Brain.school.42,2.71262552638
+280,5570,Yes,Human,Forebrain/Cerebrum,teenager,Male,WINDU 52 lane 8,13 years post birth,22259816,22140525,99%,QIAgen RNeasy QIAzol,NA,NA,NA,5025,Newborn - Teenager,Postnatal,Brain.teenager.43,3.23823807132
+274,5515,Yes,Human,Forebrain/Cerebrum,teenager,Male,WINDU 52 lane 3,14 years post birth,19197132,19065795,99%,QIAgen RNeasy QIAzol,NA,NA,NA,5390,Newborn - Teenager,Postnatal,Brain.teenager.44,2.93879167085
+275,5532,Yes,Human,Forebrain/Cerebrum,teenager,Male,WINDU 52 lane 5,16 years post birth,44823680,44475885,99%,QIAgen RNeasy QIAzol,NA,NA,NA,6120,Newborn - Teenager,Postnatal,Brain.teenager.45,3.73453199012
+305,6048,Yes,Human,Forebrain/Cerebrum,youngAdult,Male,WINDU 107 lane 3,28 years post birth,41078692,40552424,99%,QIAgen RNeasy DTT,6.6,NA,NA,10500,Adult - Senior,Postnatal,Brain.youngAdult.47,3.38758499538
+295,5531,Yes,Human,Forebrain/Cerebrum,youngAdult,Male,WINDU 52 lane 5,29 years post birth,53053623,52660276,99%,QIAgen RNeasy QIAzol,NA,NA,NA,10865,Adult - Senior,Postnatal,Brain.youngAdult.48,3.26742645185
+302,5908,Yes,Human,Forebrain/Cerebrum,youngAdult,Male,OBIWAN 203 lane 5,29 years post birth,55270908,54336004,98%,QIAgen RNeasy DTT,7.9,NA,NA,10865,Adult - Senior,Postnatal,Brain.youngAdult.49,3.19021813406
+308,5533,Yes,Human,Forebrain/Cerebrum,youngMidAge,Male,WINDU 52 lane 5,39 years post birth,24763031,24463829,99%,QIAgen RNeasy QIAzol,NA,NA,NA,14515,Adult - Senior,Postnatal,Brain.youngMidAge.50,3.47444086572
+311,5574,Yes,Human,Forebrain/Cerebrum,youngMidAge,Male,OBIWAN 180,39 years post birth,57191632,55934419,98%,QIAgen RNeasy QIAzol,NA,NA,NA,14515,Adult - Senior,Postnatal,Brain.youngMidAge.51,3.93589501649
+251,5517,Yes,Human,Forebrain/Cerebrum,olderMidAge,Male,WINDU 52 lane 3,50 years post birth,57101240,56680771,99%,QIAgen RNeasy QIAzol,NA,NA,NA,18530,Adult - Senior,Postnatal,Brain.olderMidAge.52,3.11060585388
+253,5557,Yes,Human,Forebrain/Cerebrum,olderMidAge,Male,WINDU 52 lane 7,53 years post birth,29003519,28627513,99%,QIAgen RNeasy QIAzol,NA,NA,NA,19625,Adult - Senior,Postnatal,Brain.olderMidAge.53,3.64035601113
+267,5514,Yes,Human,Forebrain/Cerebrum,senior,Male,WINDU 52 lane 3,58 years post birth,31095022,30831113,99%,QIAgen RNeasy QIAzol,NA,NA,NA,21450,Adult - Senior,Postnatal,Brain.senior.54,3.14727076623
+269,5524,Yes,Human,Forebrain/Cerebrum,senior,Male,WINDU 52 lane 4,58 years post birth,41548509,41252597,99%,QIAgen RNeasy QIAzol,NA,NA,NA,21450,Adult - Senior,Postnatal,Brain.senior.55,3.42918516294
+116,3588,Yes,Human,Heart,4wpc,Male,OBIWAN 149 lane 8,CS13,23176479,23014214,99%,QIAgen RNeasy DTT,9.1,NA,11993,28,Early Gestation,Prenatal,Heart.4wpc.1,2.71984227754
+114,3586,Yes,Human,Heart,4wpc,Female,OBIWAN 149 lane 8,CS14,27683725,27513677,99%,QIAgen RNeasy DTT,8.8,NA,11840,32,Early Gestation,Prenatal,Heart.4wpc.2,2.71549546418
+138,5642,Yes,Human,Heart,5wpc,Female,WINDU 67 lane 5,5 weeks,28027137,27822507,99%,QIAgen RNeasy DTT,7.8,NA,12117,35,Early Gestation,Prenatal,Heart.5wpc.3,2.176389953
+132,3671,Yes,Human,Heart,5wpc,Male,WINDU 47 lane 4,CS16,51240691,50707418,99%,QIAgen RNeasy DTT,9.1,NA,11959,37,Early Gestation,Prenatal,Heart.5wpc.4,1.85936652668
+149,3675,Yes,Human,Heart,6wpc,Female,WINDU 47 lane 4,CS17,28306394,28024059,99%,QIAgen RNeasy DTT,9,NA,11929,41,Early Gestation,Prenatal,Heart.6wpc.5,2.20726426516
+144,2088,Yes,Human,Heart,6wpc,Male,VADER 145 lane 3,CS 18,44204305,43495520,98%,QIAgen RNeasy QIAzol,7.6,NA,11771,44,Early Gestation,Prenatal,Heart.6wpc.6,1.61242128698
+163,3573,Yes,Human,Heart,7wpc,Female,OBIWAN 149 lane 8,CS20,35013290,34810884,99%,QIAgen RNeasy DTT,9.4,NA,12080,51,Early Gestation,Prenatal,Heart.7wpc.7,1.21330982689
+159,2027,Yes,Human,Heart,7wpc,Male,VADER 144 lane 2,CS 21,19555588,19448270,99%,QIAgen RNeasy QIAzol,7.4,NA,11731,52,Early Gestation,Prenatal,Heart.7wpc.8,2.01676534326
+168,3638,Yes,Human,Heart,7wpc,Male,WINDU 46 lane 1,CS21,33872936,33199057,98%,QIAgen RNeasy DTT,9.7,NA,11965,52,Early Gestation,Prenatal,Heart.7wpc.9,1.13251796013
+184,2030,Yes,Human,Heart,8wpc,Male,OBIWAN 133 lane 6,CS22,34282154,33935560,99%,QIAgen RNeasy QIAzol,7.4,NA,11736,54,Early Gestation,Prenatal,Heart.8wpc.10,1.32205631175
+186,2032,Yes,Human,Heart,8wpc,Female,VADER 144 lane 3 / OBIWAN 100 lane 3,CS22,51850200,50750555,98%,QIAgen RNeasy QIAzol,7.9,NA,11739,54,Early Gestation,Prenatal,Heart.8wpc.11,1.39543418563
+191,2037,Yes,Human,Heart,8wpc,Male,OBIWAN 133 lane 6,8 weeks,28713139,28487587,99%,QIAgen RNeasy QIAzol,6.3,NA,11740,56,Early Gestation,Prenatal,Heart.8wpc.12,2.06442557356
+176,1443,Yes,Human,Heart,8wpc,Male,VADER 142 lane 8 / VADER 194 lane 3,CS 23,28182518,27987057,99%,QIAgen RNeasy QIAzol,6.2,9.3,11696,57,Early Gestation,Prenatal,Heart.8wpc.13,1.08830589975
+193,2081,Yes,Human,Heart,8wpc,Female,VADER 145 lane 3,CS 23,44542965,43986274,99%,QIAgen RNeasy QIAzol,7.6,NA,11786,57,Early Gestation,Prenatal,Heart.8wpc.14,1.18546355468
+201,2039,Yes,Human,Heart,9wpc,Male,OBIWAN 100 lane 4 / VADER 144 lane 3,9 weeks,45984728,45615257,99%,QIAgen RNeasy QIAzol,7.6,NA,11745,63,Early Gestation,Prenatal,Heart.9wpc.15,1.1480515165
+205,2051,Yes,Human,Heart,9wpc,Female,OBIWAN 100 lane 2 / VADER 144 lane 5,9 weeks,54876181,54526500,99%,QIAgen RNeasy QIAzol,8,NA,11758,63,Early Gestation,Prenatal,Heart.9wpc.16,1.13023932636
+210,2071,Yes,Human,Heart,9wpc,Male,VADER 145 lane 2,9 weeks,39342061,38432813,98%,QIAgen RNeasy QIAzol,7.4,NA,11768,63,Early Gestation,Prenatal,Heart.9wpc.17,1.5596217137
+2,2024,Yes,Human,Heart,10wpc,Male,OBIWAN 133 lane 8,10 weeks,37335172,37089781,99%,QIAgen RNeasy QIAzol,6.9,NA,11727,70,Early Gestation,Prenatal,Heart.10wpc.19,0.952903898831
+4,2092,Yes,Human,Heart,10wpc,Female,OBIWAN 137 lane 1,10 weeks,30761894,30441216,99%,QIAgen RNeasy QIAzol,7,NA,11791,70,Early Gestation,Prenatal,Heart.10wpc.20,1.13659531648
+10,3777,Yes,Human,Heart,10wpc,Male,OBIWAN 180,10 weeks,27256989,26349893,97%,QIAgen RNeasy DTT,8,NA,11950,70,Early Gestation,Prenatal,Heart.10wpc.21,0.979195878375
+19,1437,Yes,Human,Heart,11wpc,Male,VADER 142 lane 7,11 weeks,37227039,36955180,99%,QIAgen RNeasy QIAzol,6.8,8.7,11697,77,Late Gestation,Prenatal,Heart.11wpc.22,1.02442295188
+21,2044,Yes,Human,Heart,11wpc,Male,VADER 144 lane 4,11 weeks,23321866,23169158,99%,QIAgen RNeasy QIAzol,7.7,NA,11755,77,Late Gestation,Prenatal,Heart.11wpc.23,1.0691071278
+29,2113,Yes,Human,Heart,11wpc,Male,VADER 145 lane 5,11 weeks,12657601,12333348,97%,QIAgen RNeasy QIAzol,8.2,NA,11798,77,Late Gestation,Prenatal,Heart.11wpc.24,1.04995069241
+30,3643,Yes,Human,Heart,11wpc,Female,WINDU 47 lane 3,11 weeks,47283098,46626683,99%,QIAgen RNeasy DTT,7.6,NA,11930,77,Late Gestation,Prenatal,Heart.11wpc.25,1.17341205258
+41,3770,Yes,Human,Heart,12wpc,Male,WINDU 47 lane 5,12 weeks,45404722,44735677,99%,QIAgen RNeasy DTT,8.5,NA,12007,84,Late Gestation,Prenatal,Heart.12wpc.27,1.18453897682
+53,5659,Yes,Human,Heart,13wpc,Male,OBIWAN 171 lane 6,13 weeks,29773356,29548898,99%,QIAgen RNeasy DTT,8.8,NA,12163,91,Late Gestation,Prenatal,Heart.13wpc.28,1.59094683417
+62,5938,Yes,Human,Heart,13wpc,Male,OBIWAN 200 lane 5,13 weeks,26147766,25532565,98%,QIAgen RNeasy DTT,NA,NA,12715,91,Late Gestation,Prenatal,Heart.13wpc.30,1.14172815425
+65,5942,Yes,Human,Heart,13wpc,Female,OBIWAN 198 lane 7,13 weeks,17172005,17014932,99%,QIAgen RNeasy DTT,5.7,NA,12760,91,Late Gestation,Prenatal,Heart.13wpc.31,0.749753323863
+82,5700,Yes,Human,Heart,16wpc,Male,WINDU 69 lane 5,16 weeks,27104905,26921713,99%,QIAgen RNeasy DTT,8.4,NA,12508,112,Late Gestation,Prenatal,Heart.16wpc.33,1.35538670431
+83,5701,Yes,Human,Heart,16wpc,Male,OBIWAN 217 lane 6,16 weeks,39664938,39075014,99%,QIAgen RNeasy DTT,8.9,NA,12270,112,Late Gestation,Prenatal,Heart.16wpc.34,0.793832832226
+90,5660,Yes,Human,Heart,18wpc,Male,OBIWAN 171 lane 6,18 weeks,23351506,23205705,99%,QIAgen RNeasy DTT,9.2,NA,12243,126,Late Gestation,Prenatal,Heart.18wpc.36,1.04710930801
+100,5777,Yes,Human,Heart,19wpc,Male,OBIWAN 179 lane 6,19 weeks,45588018,45056385,99%,QIAgen RNeasy DTT,9,NA,12519,133,Late Gestation,Prenatal,Heart.19wpc.35,1.30352743152
+103,5780,Yes,Human,Heart,19wpc,Male,OBIWAN 179 lane 6,19 weeks,49874679,49254743,99%,QIAgen RNeasy DTT,5.9,NA,12520,133,Late Gestation,Prenatal,Heart.19wpc.37,1.54882177976
+106,5783,Yes,Human,Heart,19wpc,Female,WINDU 71 lane 1,19 weeks,25409360,25185565,99%,QIAgen RNeasy DTT,NA,NA,12545,133,Late Gestation,Prenatal,Heart.19wpc.38,1.18091692276
+242,5843,Yes,Human,Heart,newborn,Female,OBIWAN 200 lane 8,0 days post birth,40894245,39733035,97%,QIAgen RNeasy DTT,7.8,NA,NA,280,Newborn - Teenager,Postnatal,Heart.newborn.39,1.82751945948
+248,5905,Yes,Human,Heart,newborn,Male,OBIWAN 203 lane 4,94 days post birth,26983321,26580518,99%,QIAgen RNeasy DTT,7.2,NA,NA,374,Newborn - Teenager,Postnatal,Heart.newborn.41,1.29946641184
+226,5828,Yes,Human,Heart,infant,Female,OBIWAN 203 lane 3,6 months post birth,19795061,19614481,99%,QIAgen RNeasy DTT,7.4,NA,NA,460,Newborn - Teenager,Postnatal,Heart.infant.43,1.28047805272
+224,5818,Yes,Human,Heart,infant,Male,OBIWAN 203 lane 3,226 days post birth,35637616,34591644,97%,QIAgen RNeasy DTT,6.2,NA,NA,506,Newborn - Teenager,Postnatal,Heart.infant.44,1.34756624394
+227,5836,Yes,Human,Heart,infant,Male,OBIWAN 200 lane 7,270 days post birth,26562452,25194031,95%,QIAgen RNeasy DTT,7.8,NA,NA,550,Newborn - Teenager,Postnatal,Heart.infant.45,1.40722833818
+288,5839,Yes,Human,Heart,toddler,Male,OBIWAN 200 lane 8,2 years post birth,13262802,12987030,98%,QIAgen RNeasy DTT,7.7,NA,NA,1010,Newborn - Teenager,Postnatal,Heart.toddler.46,1.59873553557
+292,6100,Yes,Human,Heart,toddler,Female,OBIWAN 203 lane 6,4 years post birth,23967791,17343938,72%,QIAgen RNeasy DTT,8.3,NA,NA,1740,Newborn - Teenager,Postnatal,Heart.toddler.47,1.4200707623
+282,5822,Yes,Human,Heart,teenager,Male,OBIWAN 200 lane 7,13 years post birth,22150161,21540206,97%,QIAgen RNeasy DTT,7.4,NA,NA,5025,Newborn - Teenager,Postnatal,Heart.teenager.48,2.09940710082
+303,6042,Yes,Human,Heart,youngAdult,Male,WINDU 107 lane 3,25 years post birth,29787570,29349217,99%,QIAgen RNeasy QIAzol,6.5,NA,NA,9405,Adult - Senior,Postnatal,Heart.youngAdult.49,2.47503336307
+254,6043,Yes,Human,Heart,olderMidAge,Male,OBIWAN 203 lane 6,54 years post birth,33098616,29684593,90%,QIAgen RNeasy QIAzol,NA,NA,NA,19990,Adult - Senior,Postnatal,Heart.olderMidAge.50,3.03544674522
+119,5622,Yes,Human,Hindbrain/Cerebellum,4wpc,Female,OBIWAN 171 lane 3,4 weeks,25500559,25169713,99%,QIAgen RNeasy DTT,9.2,NA,12126,28,Early Gestation,Prenatal,Cerebellum.4wpc.1,1.56975763144
+122,5625,Yes,Human,Hindbrain/Cerebellum,4wpc,Male,OBIWAN 171 lane 3,4 weeks,33062460,32538930,98%,QIAgen RNeasy DTT,9.6,NA,12179,28,Early Gestation,Prenatal,Cerebellum.4wpc.2,1.57199078845
+129,6097,Yes,Human,Hindbrain/Cerebellum,4wpc,Male,OBIWAN 203 lane 6,4 weeks,41751582,41270237,99%,QIAgen RNeasy DTT,10,NA,12980,28,Early Gestation,Prenatal,Cerebellum.4wpc.3,1.55581876886
+135,5635,Yes,Human,Hindbrain/Cerebellum,5wpc,Female,OBIWAN 171 lane 4,5 weeks,31505804,31323839,99%,QIAgen RNeasy DTT,8.3,NA,12117,35,Early Gestation,Prenatal,Cerebellum.5wpc.4,1.9523066538
+131,3670,Yes,Human,Hindbrain/Cerebellum,5wpc,Male,WINDU 47 lane 4,CS16,34127910,33795912,99%,QIAgen RNeasy DTT,8.9,NA,11959,37,Early Gestation,Prenatal,Cerebellum.5wpc.5,1.52959350731
+148,3674,Yes,Human,Hindbrain/Cerebellum,6wpc,Female,WINDU 47 lane 4,CS17,50534113,50106593,99%,QIAgen RNeasy DTT,9.4,NA,11978,41,Early Gestation,Prenatal,Cerebellum.6wpc.6,1.98393348739
+155,5742,Yes,Human,Hindbrain/Cerebellum,6wpc,Female,WINDU 104 lane 7,6 weeks,39216047,38743978,99%,QIAgen RNeasy DTT,9.1,NA,12331,42,Early Gestation,Prenatal,Cerebellum.6wpc.7,1.38385178579
+145,2089,Yes,Human,Hindbrain/Cerebellum,6wpc,Male,VADER 145 lane 4,CS 18,30130646,29884478,99%,QIAgen RNeasy QIAzol,7.6,NA,11771,44,Early Gestation,Prenatal,Cerebellum.6wpc.8,1.52431750952
+147,3672,Yes,Human,Hindbrain/Cerebellum,6wpc,Male,WINDU 47 lane 4,CS18,27545909,27344375,99%,QIAgen RNeasy DTT,8.4,NA,12006,44,Early Gestation,Prenatal,Cerebellum.6wpc.9,1.30717779091
+162,3572,Yes,Human,Hindbrain/Cerebellum,7wpc,Female,OBIWAN 149 lane 7,CS20,44600353,43972145,99%,QIAgen RNeasy DTT,9.4,NA,12080,51,Early Gestation,Prenatal,Cerebellum.7wpc.10,1.48738035094
+160,2029,Yes,Human,Hindbrain/Cerebellum,7wpc,Male,OBIWAN 133 lane 6,CS21,37315858,37080179,99%,QIAgen RNeasy QIAzol,8.2,NA,11731,52,Early Gestation,Prenatal,Cerebellum.7wpc.11,2.22467997528
+167,3637,Yes,Human,Hindbrain/Cerebellum,7wpc,Male,WINDU 46 lane 1,CS21,49050834,47750165,97%,QIAgen RNeasy DTT,9.4,NA,11965,52,Early Gestation,Prenatal,Cerebellum.7wpc.12,1.40812972262
+185,2031,Yes,Human,Hindbrain/Cerebellum,8wpc,Male,VADER 144 lane 2,CS 22,18775722,18675985,99%,QIAgen RNeasy QIAzol,6.8,NA,11736,54,Early Gestation,Prenatal,Cerebellum.8wpc.13,1.53635766919
+187,2033,Yes,Human,Hindbrain/Cerebellum,8wpc,Female,VADER 144 lane 3,CS 22,27656242,27462635,99%,QIAgen RNeasy QIAzol,7.8,NA,11739,54,Early Gestation,Prenatal,Cerebellum.8wpc.14,2.17246240825
+190,2036,Yes,Human,Hindbrain/Cerebellum,8wpc,Male,OBIWAN 100 lane 2 / VADER 144 lane 3,8 weeks,45483594,45147188,99%,QIAgen RNeasy QIAzol,7.7,NA,11740,56,Early Gestation,Prenatal,Cerebellum.8wpc.15,3.31570319931
+194,2082,Yes,Human,Hindbrain/Cerebellum,8wpc,Female,VADER 145 lane 3,CS 23,35083064,34676757,99%,QIAgen RNeasy QIAzol,7.2,NA,11786,57,Early Gestation,Prenatal,Cerebellum.8wpc.16,1.8603383808
+202,2040,Yes,Human,Hindbrain/Cerebellum,9wpc,Male,VADER 144 lane 3,9 weeks,18093097,18005949,100%,QIAgen RNeasy QIAzol,6.6,NA,11745,63,Early Gestation,Prenatal,Cerebellum.9wpc.17,1.32343820245
+208,2054,Yes,Human,Hindbrain/Cerebellum,9wpc,Female,VADER 144 lane 5,9 weeks,26845626,26652564,99%,QIAgen RNeasy QIAzol,7.9,NA,11758,63,Early Gestation,Prenatal,Cerebellum.9wpc.18,2.30679971081
+7,3653,Yes,Human,Hindbrain/Cerebellum,10wpc,Male,WINDU 47 lane 3,10 weeks,46175127,45679238,99%,QIAgen RNeasy DTT,7.2,NA,11950,70,Early Gestation,Prenatal,Cerebellum.10wpc.19,2.05868446041
+17,5743,Yes,Human,Hindbrain/Cerebellum,10wpc,Female,WINDU 104 lane 7,10 weeks,41069878,40729969,99%,QIAgen RNeasy DTT,9.8,NA,12149,70,Early Gestation,Prenatal,Cerebellum.10wpc.20,2.58976366028
+24,2048,Yes,Human,Hindbrain/Cerebellum,11wpc,Male,VADER 194 lane 3 / VADER 144 lane 4,11 weeks,26102823,25848265,99%,QIAgen RNeasy QIAzol,7.8,NA,11755,77,Late Gestation,Prenatal,Cerebellum.11wpc.21,2.37147601068
+25,2096,Yes,Human,Hindbrain/Cerebellum,11wpc,Male,VADER 145 lane 4,11 weeks,56870921,56384875,99%,QIAgen RNeasy QIAzol,5.8,NA,11798,77,Late Gestation,Prenatal,Cerebellum.11wpc.22,2.35870709968
+32,3668,Yes,Human,Hindbrain/Cerebellum,11wpc,Male,WINDU 47 lane 3,11 weeks,40511631,39746441,98%,QIAgen RNeasy DTT,8.3,NA,11951,77,Late Gestation,Prenatal,Cerebellum.11wpc.23,2.31191372599
+34,5637,Yes,Human,Hindbrain/Cerebellum,11wpc,Female,OBIWAN 171 lane 4,11 weeks,25993325,25748649,99%,QIAgen RNeasy DTT,7.8,NA,12275,77,Late Gestation,Prenatal,Cerebellum.11wpc.24,2.43754490365
+40,3769,Yes,Human,Hindbrain/Cerebellum,12wpc,Male,WINDU 47 lane 5,12 weeks,65767183,64168226,98%,QIAgen RNeasy DTT,7.6,NA,12007,84,Late Gestation,Prenatal,Cerebellum.12wpc.25,2.54931434791
+47,5708,Yes,Human,Hindbrain/Cerebellum,12wpc,Female,OBIWAN 179 lane 7,12 weeks,44283953,43951562,99%,QIAgen RNeasy DTT,9.4,NA,12513,84,Late Gestation,Prenatal,Cerebellum.12wpc.26,2.55513832895
+54,5670,Yes,Human,Hindbrain/Cerebellum,13wpc,Male,OBIWAN 171 lane 7,13 weeks,33827893,33573523,99%,QIAgen RNeasy DTT,8.4,NA,12163,91,Late Gestation,Prenatal,Cerebellum.13wpc.28,3.54791216916
+60,5724,Yes,Human,Hindbrain/Cerebellum,13wpc,Male,OBIWAN 179 lane 8,13 weeks,23450540,23290471,99%,QIAgen RNeasy DTT,8.8,NA,12593,91,Late Gestation,Prenatal,Cerebellum.13wpc.29,2.45378649435
+66,5943,Yes,Human,Hindbrain/Cerebellum,13wpc,Female,OBIWAN 198 lane 5,13 weeks,21620016,21506721,99%,QIAgen RNeasy DTT,9.3,NA,12760,91,Late Gestation,Prenatal,Cerebellum.13wpc.30,1.63796755584
+76,5669,Yes,Human,Hindbrain/Cerebellum,16wpc,Female,WINDU 67 lane 3,16 weeks,34658799,34440134,99%,QIAgen RNeasy DTT,7.5,NA,12411,112,Late Gestation,Prenatal,Cerebellum.16wpc.31,2.66640341948
+77,5671,Yes,Human,Hindbrain/Cerebellum,16wpc,Male,OBIWAN 171 lane 7,16 weeks,45960122,45440848,99%,QIAgen RNeasy DTT,7.9,NA,12508,112,Late Gestation,Prenatal,Cerebellum.16wpc.32,2.86722798151
+86,5956,Yes,Human,Hindbrain/Cerebellum,16wpc,Female,OBIWAN 203 lane 6,16 weeks,25163678,24901383,99%,QIAgen RNeasy DTT,6.7,NA,12705,112,Late Gestation,Prenatal,Cerebellum.16wpc.33,3.89676616452
+241,5842,Yes,Human,Hindbrain/Cerebellum,newborn,Female,OBIWAN 198 lane 4,0 days post birth,29920443,29694829,99%,QIAgen RNeasy DTT,8.1,NA,NA,280,Newborn - Teenager,Postnatal,Cerebellum.newborn.34,2.43181424437
+244,5848,Yes,Human,Hindbrain/Cerebellum,newborn,Female,OBIWAN 200 lane 8,0 days post birth,12395552,12216004,99%,QIAgen RNeasy DTT,7,NA,NA,280,Newborn - Teenager,Postnatal,Cerebellum.newborn.35,2.26134132525
+234,5510,Yes,Human,Hindbrain/Cerebellum,newborn,Male,WINDU 52 lane 3,4 days post birth,47334805,46975647,99%,QIAgen RNeasy QIAzol,NA,NA,NA,284,Newborn - Teenager,Postnatal,Cerebellum.newborn.36,3.2007222073
+236,5527,Yes,Human,Hindbrain/Cerebellum,newborn,Female,WINDU 52 lane 5,19 days post birth,26544975,26299001,99%,QIAgen RNeasy QIAzol,NA,NA,NA,299,Newborn - Teenager,Postnatal,Cerebellum.newborn.37,3.45933884525
+228,5849,Yes,Human,Hindbrain/Cerebellum,infant,Female,OBIWAN 203 lane 3,6 months post birth,29282411,28820325,98%,QIAgen RNeasy DTT,5.6,NA,NA,460,Newborn - Teenager,Postnatal,Cerebellum.infant.39,2.74025639945
+221,5555,Yes,Human,Hindbrain/Cerebellum,infant,Male,WINDU 52 lane 7,221 days post birth,38734532,38389862,99%,QIAgen RNeasy QIAzol,NA,NA,NA,501,Newborn - Teenager,Postnatal,Cerebellum.infant.40,3.46182325351
+223,5568,Yes,Human,Hindbrain/Cerebellum,infant,Male,WINDU 52 lane 8,270 days post birth,31950535,31793907,100%,QIAgen RNeasy QIAzol,NA,NA,NA,550,Newborn - Teenager,Postnatal,Cerebellum.infant.41,3.40936847689
+285,5559,Yes,Human,Hindbrain/Cerebellum,toddler,Female,OBIWAN 157 lane 7,2 years post birth,28690375,28480175,99%,QIAgen RNeasy QIAzol,NA,NA,NA,1010,Newborn - Teenager,Postnatal,Cerebellum.toddler.42,3.58161050377
+290,5846,Yes,Human,Hindbrain/Cerebellum,toddler,Male,OBIWAN 198 lane 7,4 years post birth,25005126,24838083,99%,QIAgen RNeasy DTT,7,NA,NA,1740,Newborn - Teenager,Postnatal,Cerebellum.toddler.43,4.94334503504
+262,5567,Yes,Human,Hindbrain/Cerebellum,school,Male,WINDU 52 lane 8,7 years post birth,37364165,37121002,99%,QIAgen RNeasy QIAzol,NA,NA,NA,2835,Newborn - Teenager,Postnatal,Cerebellum.school.44,4.53864007393
+261,5562,Yes,Human,Hindbrain/Cerebellum,school,Male,OBIWAN 157 lane 7,8 years post birth,29594665,29423476,99%,QIAgen RNeasy QIAzol,NA,NA,NA,3200,Newborn - Teenager,Postnatal,Cerebellum.school.45,3.85737624375
+264,6046,Yes,Human,Hindbrain/Cerebellum,school,Female,WINDU 107 lane 3,8 years post birth,24117708,24010143,100%,QIAgen RNeasy DTT,8.2,NA,NA,3200,Newborn - Teenager,Postnatal,Cerebellum.school.46,3.96334374069
+273,5511,Yes,Human,Hindbrain/Cerebellum,teenager,Male,WINDU 52 lane 3,13 years post birth,24905151,24692408,99%,QIAgen RNeasy QIAzol,NA,NA,NA,5025,Newborn - Teenager,Postnatal,Cerebellum.teenager.47,4.70739729896
+277,5545,Yes,Human,Hindbrain/Cerebellum,teenager,Male,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,14 years post birth,86462851,69247342,80%,QIAgen RNeasy QIAzol,NA,NA,NA,5390,Newborn - Teenager,Postnatal,Cerebellum.teenager.48,4.39531242672
+276,5534,Yes,Human,Hindbrain/Cerebellum,teenager,Male,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,16 years post birth,100922969,100258440,99%,QIAgen RNeasy QIAzol,NA,NA,NA,6120,Newborn - Teenager,Postnatal,Cerebellum.teenager.49,4.52609914026
+279,5565,Yes,Human,Hindbrain/Cerebellum,teenager,Male,OBIWAN 157 lane 7,17 years post birth,45058811,44798162,99%,QIAgen RNeasy QIAzol,NA,NA,NA,6485,Newborn - Teenager,Postnatal,Cerebellum.teenager.50,4.01011437462
+294,5520,Yes,Human,Hindbrain/Cerebellum,youngAdult,Male,WINDU 52 lane 4,29 years post birth,43948384,43656318,99%,QIAgen RNeasy QIAzol,NA,NA,NA,10865,Adult - Senior,Postnatal,Cerebellum.youngAdult.51,5.11237506024
+298,5540,Yes,Human,Hindbrain/Cerebellum,youngAdult,Male,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,29 years post birth,107812179,90884456,84%,QIAgen RNeasy QIAzol,NA,NA,NA,10865,Adult - Senior,Postnatal,Cerebellum.youngAdult.52,4.34203618701
+304,6047,Yes,Human,Hindbrain/Cerebellum,youngAdult,Female,OBIWAN 203 lane 6,32 years post birth,33016102,32217193,98%,QIAgen RNeasy DTT,6,NA,NA,11960,Adult - Senior,Postnatal,Cerebellum.youngAdult.53,4.75532647915
+307,5522,Yes,Human,Hindbrain/Cerebellum,youngMidAge,Male,WINDU 52 lane 4,39 years post birth,23644529,23475333,99%,QIAgen RNeasy QIAzol,NA,NA,NA,14515,Adult - Senior,Postnatal,Cerebellum.youngMidAge.54,4.84342804362
+309,5547,Yes,Human,Hindbrain/Cerebellum,youngMidAge,Male,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,39 years post birth,100732386,100047467,99%,QIAgen RNeasy QIAzol,NA,NA,NA,14515,Adult - Senior,Postnatal,Cerebellum.youngMidAge.55,4.79934948821
+252,5549,Yes,Human,Hindbrain/Cerebellum,olderMidAge,Male,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,50 years post birth,96476395,95868610,99%,QIAgen RNeasy QIAzol,NA,NA,NA,18530,Adult - Senior,Postnatal,Cerebellum.olderMidAge.56,4.52058403649
+250,5516,Yes,Human,Hindbrain/Cerebellum,olderMidAge,Male,WINDU 52 lane 3,53 years post birth,26602047,26395538,99%,QIAgen RNeasy QIAzol,NA,NA,NA,19625,Adult - Senior,Postnatal,Cerebellum.olderMidAge.57,5.19181190799
+270,5525,Yes,Human,Hindbrain/Cerebellum,senior,Male,WINDU 52 lane 4,58 years post birth,32556733,32339572,99%,QIAgen RNeasy QIAzol,NA,NA,NA,21450,Adult - Senior,Postnatal,Cerebellum.senior.58,4.3907631348
+272,5573,Yes,Human,Hindbrain/Cerebellum,senior,Male,WINDU 52 lane 8,58 years post birth,45094496,44893701,100%,QIAgen RNeasy QIAzol,NA,NA,NA,21450,Adult - Senior,Postnatal,Cerebellum.senior.59,4.23269899301
+125,5911,Yes,Human,Kidney,4wpc,Male,OBIWAN 206 lane 7,4 weeks,15786369,15581429,99%,QIAgen RNeasy DTT,NA,NA,12664,28,Early Gestation,Prenatal,Kidney.4wpc.1,2.10153971138
+139,5649,Yes,Human,Kidney,5wpc,Male,OBIWAN 171 lane 5,5 weeks,41607270,40810244,98%,QIAgen RNeasy DTT,8.7,NA,12301,35,Early Gestation,Prenatal,Kidney.5wpc.2,2.12377133208
+140,5717,Yes,Human,Kidney,5wpc,Female,OBIWAN 179 lane 8,5 weeks,29505725,29275839,99%,QIAgen RNeasy DTT,9.3,NA,12561,35,Early Gestation,Prenatal,Kidney.5wpc.3,1.4849242138
+153,5643,Yes,Human,Kidney,6wpc,Female,WINDU 67 lane 5,6 weeks,30536610,30122556,99%,QIAgen RNeasy DTT,7.9,NA,12331,42,Early Gestation,Prenatal,Kidney.6wpc.4,2.16787637341
+154,5650,Yes,Human,Kidney,6wpc,Male,OBIWAN 171 lane 5,6 weeks,38499086,37520074,97%,QIAgen RNeasy DTT,8.8,NA,12341,42,Early Gestation,Prenatal,Kidney.6wpc.5,2.3220923968
+173,5644,Yes,Human,Kidney,7wpc,Female,WINDU 67 lane 5,7 weeks,35859370,34926838,97%,QIAgen RNeasy DTT,8.5,NA,12272,49,Early Gestation,Prenatal,Kidney.7wpc.6,1.32970598303
+174,5675,Yes,Human,Kidney,7wpc,Male,OBIWAN 171 lane 7,7 weeks,35318764,34989720,99%,QIAgen RNeasy DTT,8.6,NA,12266,49,Early Gestation,Prenatal,Kidney.7wpc.7,1.72667415045
+198,5645,Yes,Human,Kidney,8wpc,Female,WINDU 67 lane 5,CS22,31267157,31088011,99%,QIAgen RNeasy DTT,9.1,NA,12365,54,Early Gestation,Prenatal,Kidney.8wpc.8,1.72516532022
+199,5676,Yes,Human,Kidney,8wpc,Male,OBIWAN 171 lane 7,CS23,27103367,26868612,99%,QIAgen RNeasy DTT,8.7,NA,12353,57,Early Gestation,Prenatal,Kidney.8wpc.9,2.3531663139
+214,5925,Yes,Human,Kidney,9wpc,Male,OBIWAN 198 lane 2,9 weeks,20449612,20343561,99%,QIAgen RNeasy DTT,9.4,NA,12733,63,Early Gestation,Prenatal,Kidney.9wpc.11,1.82605676017
+16,5709,Yes,Human,Kidney,10wpc,Female,OBIWAN 179 lane 8,10 weeks,35546480,35291714,99%,QIAgen RNeasy DTT,9.2,NA,12522,70,Early Gestation,Prenatal,Kidney.10wpc.13,2.01414683679
+18,5930,Yes,Human,Kidney,10wpc,Female,OBIWAN 198 lane 2,10 weeks,21657174,21508784,99%,QIAgen RNeasy DTT,9.6,NA,12721,70,Early Gestation,Prenatal,Kidney.10wpc.14,1.45855791284
+20,1439,Yes,Human,Kidney,11wpc,Male,VADER 142 lane 7,11 weeks,29258109,29064078,99%,QIAgen RNeasy QIAzol,NA,8.5,11697,77,Late Gestation,Prenatal,Kidney.11wpc.15,1.55216185094
+35,5647,Yes,Human,Kidney,11wpc,Female,OBIWAN 171 lane 5,11 weeks,27052712,26388376,98%,QIAgen RNeasy DTT,6.3,NA,12275,77,Late Gestation,Prenatal,Kidney.11wpc.16,1.86196827409
+45,5648,Yes,Human,Kidney,12wpc,Female,OBIWAN 171 lane 5,12 weeks,29330182,28684302,98%,QIAgen RNeasy DTT,7,NA,12343,84,Late Gestation,Prenatal,Kidney.12wpc.17,2.57032666771
+46,5651,Yes,Human,Kidney,12wpc,Male,OBIWAN 171 lane 5,12 weeks,35798241,34735536,97%,QIAgen RNeasy DTT,7.6,NA,12342,84,Late Gestation,Prenatal,Kidney.12wpc.18,1.85896192919
+52,5655,Yes,Human,Kidney,13wpc,Male,OBIWAN 171 lane 6,13 weeks,21347349,21191132,99%,QIAgen RNeasy DTT,7.3,NA,12344,91,Late Gestation,Prenatal,Kidney.13wpc.19,1.88957239943
+56,5697,Yes,Human,Kidney,13wpc,Female,WINDU 69 lane 5,13 weeks,37470909,37219127,99%,QIAgen RNeasy DTT,8.4,NA,12467,91,Late Gestation,Prenatal,Kidney.13wpc.20,1.58769742097
+58,5713,Yes,Human,Kidney,13wpc,Male,OBIWAN 179 lane 8,13 weeks,35474518,35212616,99%,QIAgen RNeasy DTT,8.1,NA,12525,91,Late Gestation,Prenatal,Kidney.13wpc.21,2.71835175981
+79,5687,Yes,Human,Kidney,16wpc,Male,WINDU 67 lane 4,16 weeks,23023255,22891318,99%,QIAgen RNeasy DTT,8.1,NA,12508,112,Late Gestation,Prenatal,Kidney.16wpc.23,1.13085881009
+81,5698,Yes,Human,Kidney,16wpc,Male,WINDU 69 lane 5,16 weeks,26734150,26586369,99%,QIAgen RNeasy DTT,5.1,NA,12270,112,Late Gestation,Prenatal,Kidney.16wpc.24,1.3042068636
+91,5662,Yes,Human,Kidney,18wpc,Female,WINDU 67 lane 3,18 weeks,42236444,41924776,99%,QIAgen RNeasy DTT,8.5,NA,12441,126,Late Gestation,Prenatal,Kidney.18wpc.25,1.89606319468
+97,5957,Yes,Human,Kidney,18wpc,Female,OBIWAN 203 lane 8,18 weeks,24352086,23423982,96%,QIAgen RNeasy DTT,NA,NA,12663,126,Late Gestation,Prenatal,Kidney.18wpc.26,2.11101596437
+102,5779,Yes,Human,Kidney,19wpc,Male,OBIWAN 179 lane 6,19 weeks,52347960,51593058,99%,QIAgen RNeasy DTT,7.1,NA,12520,133,Late Gestation,Prenatal,Kidney.19wpc.30,3.83449232041
+110,5771,Yes,Human,Kidney,20wpc,Female,WINDU 71 lane 1,20 weeks,34906521,34630512,99%,QIAgen RNeasy DTT,7.8,NA,12034,140,Late Gestation,Prenatal,Kidney.20wpc.28,1.59048547023
+113,5775,Yes,Human,Kidney,20wpc,Male,OBIWAN 179 lane 6,20 weeks,32450165,32024046,99%,QIAgen RNeasy DTT,7,NA,12457,140,Late Gestation,Prenatal,Kidney.20wpc.29,1.86352662973
+243,5844,Yes,Human,Kidney,newborn,Female,OBIWAN 203 lane 5,0 days post birth,29328200,28611989,98%,QIAgen RNeasy DTT,6,NA,NA,280,Newborn - Teenager,Postnatal,Kidney.newborn.31,2.23548001624
+249,6098,Yes,Human,Kidney,newborn,Female,OBIWAN 203 lane 6,18 days post birth,37801770,36725734,97%,QIAgen RNeasy DTT,6.3,NA,NA,298,Newborn - Teenager,Postnatal,Kidney.newborn.32,3.45168348458
+240,5834,Yes,Human,Kidney,newborn,Male,OBIWAN 200 lane 6,34 days post birth,33080471,32390517,98%,QIAgen RNeasy DTT,NA,NA,NA,314,Newborn - Teenager,Postnatal,Kidney.newborn.33,2.38612381061
+231,6103,Yes,Human,Kidney,infant,Female,OBIWAN 203 lane 7,6 months post birth,25752739,24204572,94%,QIAgen RNeasy DTT,NA,NA,NA,460,Newborn - Teenager,Postnatal,Kidney.infant.34,2.8133613527
+233,6105,Yes,Human,Kidney,infant,Male,OBIWAN 203 lane 7,6 months post birth,36745628,34583582,94%,QIAgen RNeasy DTT,8.1,NA,NA,460,Newborn - Teenager,Postnatal,Kidney.infant.36,2.84178667196
+225,5819,Yes,Human,Kidney,infant,Female,OBIWAN 203 lane 4,226 days post birth,24967448,24773752,99%,QIAgen RNeasy DTT,NA,NA,NA,506,Newborn - Teenager,Postnatal,Kidney.infant.37,2.34994418883
+286,5821,Yes,Human,Kidney,toddler,Male,OBIWAN 203 lane 3,2 years post birth,28825046,28455589,99%,QIAgen RNeasy DTT,7.6,NA,NA,1010,Newborn - Teenager,Postnatal,Kidney.toddler.38,2.9569354748
+293,6101,Yes,Human,Kidney,toddler,Female,OBIWAN 203 lane 6,4 years post birth,33006666,31361879,95%,QIAgen RNeasy DTT,5.2,NA,NA,1740,Newborn - Teenager,Postnatal,Kidney.toddler.39,2.58415656935
+265,6099,Yes,Human,Kidney,school,Female,OBIWAN 203 lane 6,8 years post birth,35458622,33986238,96%,QIAgen RNeasy DTT,NA,NA,NA,3200,Newborn - Teenager,Postnatal,Kidney.school.40,3.1215541387
+117,3589,Yes,Human,Liver,4wpc,Male,WINDU 46 lane 1,CS13,51292623,50158524,98%,QIAgen RNeasy DTT,9.2,NA,11993,28,Early Gestation,Prenatal,Liver.4wpc.1,2.97593162033
+123,5626,Yes,Human,Liver,4wpc,Male,OBIWAN 171 lane 3,4 weeks,24707657,24207953,98%,QIAgen RNeasy DTT,9.6,NA,12179,28,Early Gestation,Prenatal,Liver.4wpc.2,1.79800995076
+124,5910,Yes,Human,Liver,4wpc,Male,OBIWAN 198 lane 5,4 weeks,21488144,21356840,99%,QIAgen RNeasy DTT,8.6,NA,12664,28,Early Gestation,Prenatal,Liver.4wpc.3,2.00754526048
+126,5913,Yes,Human,Liver,4wpc,Female,OBIWAN 203 lane 7,4 weeks,14425811,14306733,99%,QIAgen RNeasy DTT,5.6,NA,12878,28,Early Gestation,Prenatal,Liver.4wpc.4,2.54984377446
+134,5629,Yes,Human,Liver,5wpc,Male,OBIWAN 171 lane 4,5 weeks,28068911,27807497,99%,QIAgen RNeasy DTT,9,NA,12200,35,Early Gestation,Prenatal,Liver.5wpc.5,1.84081031051
+137,5640,Yes,Human,Liver,5wpc,Female,WINDU 67 lane 5,5 weeks,27061676,26878531,99%,QIAgen RNeasy DTT,8.9,NA,12117,35,Early Gestation,Prenatal,Liver.5wpc.6,2.68421817204
+150,3676,Yes,Human,Liver,6wpc,Female,WINDU 47 lane 4,CS17,36851802,36505730,99%,QIAgen RNeasy DTT,8.4,NA,11929,41,Early Gestation,Prenatal,Liver.6wpc.7,2.09853788422
+143,2076,Yes,Human,Liver,6wpc,Male,VADER 145 lane 2,CS 18,41423741,40321060,97%,QIAgen RNeasy QIAzol,7.3,NA,11771,44,Early Gestation,Prenatal,Liver.6wpc.8,1.69524874277
+171,3641,Yes,Human,Liver,7wpc,Male,WINDU 46 lane 1,CS19,37747755,36862406,98%,QIAgen RNeasy DTT,9.6,NA,11724,48,Early Gestation,Prenatal,Liver.7wpc.9,1.52800268252
+164,3574,Yes,Human,Liver,7wpc,Female,OBIWAN 149 lane 8,CS20,30375129,30182981,99%,QIAgen RNeasy DTT,9.2,NA,12080,51,Early Gestation,Prenatal,Liver.7wpc.10,1.28063979532
+156,2014,Yes,Human,Liver,7wpc,Male,VADER 142 lane 8,CS 21,27507384,27282646,99%,QIAgen RNeasy QIAzol,7.7,NA,11731,52,Early Gestation,Prenatal,Liver.7wpc.11,2.01211108284
+169,3639,Yes,Human,Liver,7wpc,Male,WINDU 46 lane 1,CS21,40248040,39230905,97%,QIAgen RNeasy DTT,9.9,NA,11965,52,Early Gestation,Prenatal,Liver.7wpc.12,1.30414681957
+179,2016,Yes,Human,Liver,8wpc,Male,VADER 194 lane 3 / VADER 144 lane 1,CS 22,23785535,23625453,99%,QIAgen RNeasy QIAzol,7.8,NA,11736,54,Early Gestation,Prenatal,Liver.8wpc.13,1.40422746711
+180,2017,Yes,Human,Liver,8wpc,Female,VADER 194 lane 3 / VADER 144 lane 1,CS 22,27393388,27201077,99%,QIAgen RNeasy QIAzol,7.2,NA,11739,54,Early Gestation,Prenatal,Liver.8wpc.14,1.62158486144
+182,2019,Yes,Human,Liver,8wpc,Male,VADER 144 lane 1 / OBIWAN 100 lane 4,8 weeks,53607544,53076018,99%,QIAgen RNeasy QIAzol,5.8,NA,11740,56,Early Gestation,Prenatal,Liver.8wpc.15,2.2719641679
+196,2085,Yes,Human,Liver,8wpc,Female,VADER 194 lane 3 / VADER 145 lane 3,CS 23,24215541,23928058,99%,QIAgen RNeasy QIAzol,7,NA,11786,57,Early Gestation,Prenatal,Liver.8wpc.16,1.29896095762
+200,2022,Yes,Human,Liver,9wpc,Male,OBIWAN 133 lane 8,9 weeks,37821551,37563615,99%,QIAgen RNeasy QIAzol,7.1,NA,11745,63,Early Gestation,Prenatal,Liver.9wpc.17,1.17619603862
+207,2053,Yes,Human,Liver,9wpc,Female,VADER 144 lane 5,9 weeks,21111547,20968315,99%,QIAgen RNeasy QIAzol,7.6,NA,11758,63,Early Gestation,Prenatal,Liver.9wpc.18,1.48904844619
+211,2072,Yes,Human,Liver,9wpc,Male,VADER 145 lane 2 / OBIWAN 100 lane 2,9 weeks,39674903,39098058,99%,QIAgen RNeasy QIAzol,7.5,NA,11768,63,Early Gestation,Prenatal,Liver.9wpc.19,1.2334668036
+3,2025,Yes,Human,Liver,10wpc,Male,OBIWAN 133 lane 7,10 weeks,36710861,36366197,99%,QIAgen RNeasy QIAzol,7.4,NA,11727,70,Early Gestation,Prenatal,Liver.10wpc.20,1.24584105452
+5,2094,Yes,Human,Liver,10wpc,Female,VADER 145 lane 4,10 weeks,25202024,24929741,99%,QIAgen RNeasy QIAzol,7.1,NA,11791,70,Early Gestation,Prenatal,Liver.10wpc.21,1.89980643452
+8,3654,Yes,Human,Liver,10wpc,Male,WINDU 47 lane 3,10 weeks,30238306,29860490,99%,QIAgen RNeasy DTT,6.9,NA,11950,70,Early Gestation,Prenatal,Liver.10wpc.22,1.22180848982
+14,5678,Yes,Human,Liver,10wpc,Female,OBIWAN 171 lane 7,10 weeks,24890873,24727795,99%,QIAgen RNeasy DTT,8.7,NA,12149,70,Early Gestation,Prenatal,Liver.10wpc.23,2.49732320368
+22,2046,Yes,Human,Liver,11wpc,Male,OBIWAN 133 lane 8,11 weeks,33018161,32800065,99%,QIAgen RNeasy QIAzol,7.6,NA,11755,77,Late Gestation,Prenatal,Liver.11wpc.24,1.24162193619
+28,2112,Yes,Human,Liver,11wpc,Male,VADER 145 lane 5,11 weeks,14980305,14524122,97%,QIAgen RNeasy QIAzol,7.7,NA,11798,77,Late Gestation,Prenatal,Liver.11wpc.25,1.29047294002
+33,3779,Yes,Human,Liver,11wpc,Female,WINDU 65 lane 6,11 weeks,48403809,47660671,98%,QIAgen RNeasy DTT,NA,NA,11930,77,Late Gestation,Prenatal,Liver.11wpc.26,1.19772800578
+68,5954,Yes,Human,Liver,13wpc,Female,OBIWAN 198 lane 5,13 weeks,23952797,23820978,99%,QIAgen RNeasy DTT,8.4,NA,12760,91,Late Gestation,Prenatal,Liver.13wpc.28,0.990960426257
+71,5654,Yes,Human,Liver,16wpc,Female,OBIWAN 171 lane 6,16 weeks,34509932,34301055,99%,QIAgen RNeasy DTT,8.8,NA,12411,112,Late Gestation,Prenatal,Liver.16wpc.29,1.43796130633
+72,5656,Yes,Human,Liver,16wpc,Male,OBIWAN 171 lane 6,16 weeks,22812603,22724028,100%,QIAgen RNeasy DTT,9.2,NA,12270,112,Late Gestation,Prenatal,Liver.16wpc.30,1.24074840346
+87,5641,Yes,Human,Liver,18wpc,Female,WINDU 67 lane 5,18 weeks,20264467,20102803,99%,QIAgen RNeasy DTT,7.6,NA,12441,126,Late Gestation,Prenatal,Liver.18wpc.31,1.42603373573
+89,5657,Yes,Human,Liver,18wpc,Male,OBIWAN 171 lane 6,18 weeks,23082616,22980820,100%,QIAgen RNeasy DTT,8.9,NA,12243,126,Late Gestation,Prenatal,Liver.18wpc.32,1.32704901708
+95,5948,Yes,Human,Liver,18wpc,Female,OBIWAN 203 lane 4,18 weeks,25981840,25724849,99%,QIAgen RNeasy DTT,5.6,NA,12663,126,Late Gestation,Prenatal,Liver.18wpc.33,1.3197184632
+99,5769,Yes,Human,Liver,19wpc,Male,WINDU 71 lane 1,19 weeks,49461699,49068960,99%,QIAgen RNeasy DTT,7.5,NA,11875,133,Late Gestation,Prenatal,Liver.19wpc.34,1.19242668545
+104,5781,Yes,Human,Liver,19wpc,Female,OBIWAN 179 lane 6,19 weeks,31751064,31389003,99%,QIAgen RNeasy DTT,6.3,NA,12521,133,Late Gestation,Prenatal,Liver.19wpc.36,1.51088904075
+111,5772,Yes,Human,Liver,20wpc,Female,WINDU 71 lane 1,20 weeks,25826260,25639058,99%,QIAgen RNeasy DTT,7.1,NA,12034,140,Late Gestation,Prenatal,Liver.20wpc.35,1.38398245944
+112,5773,Yes,Human,Liver,20wpc,Male,WINDU 71 lane 1,20 weeks,53558560,53090114,99%,QIAgen RNeasy DTT,8,NA,12036,140,Late Gestation,Prenatal,Liver.20wpc.37,1.45008231476
+238,5544,Yes,Human,Liver,newborn,Female,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,15 days post birth,61515415,61078966,99%,QIAgen RNeasy QIAzol,NA,NA,NA,295,Newborn - Teenager,Postnatal,Liver.newborn.38,2.80612906317
+239,5548,Yes,Human,Liver,newborn,Male,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,15 days post birth,23596165,23438580,99%,QIAgen RNeasy QIAzol,NA,NA,NA,295,Newborn - Teenager,Postnatal,Liver.newborn.39,3.04232879473
+218,5528,Yes,Human,Liver,infant,Male,WINDU 52 lane 5,221 days post birth,27489568,27269627,99%,QIAgen RNeasy QIAzol,NA,NA,NA,501,Newborn - Teenager,Postnatal,Liver.infant.40,3.25539446183
+284,5556,Yes,Human,Liver,toddler,Female,WINDU 52 lane 7,2 years post birth,25045771,24779735,99%,QIAgen RNeasy QIAzol,NA,NA,NA,1010,Newborn - Teenager,Postnatal,Liver.toddler.42,3.58765574039
+259,5513,Yes,Human,Liver,school,Male,WINDU 52 lane 3,7 years post birth,24644517,24466180,99%,QIAgen RNeasy QIAzol,NA,NA,NA,2835,Newborn - Teenager,Postnatal,Liver.school.43,2.96523169014
+281,5575,Yes,Human,Liver,teenager,Male,OBIWAN 180,17 years post birth,35257951,34642792,98%,QIAgen RNeasy QIAzol,NA,NA,NA,6485,Newborn - Teenager,Postnatal,Liver.teenager.44,2.19038459268
+297,5536,Yes,Human,Liver,youngAdult,Male,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,29 years post birth,30896448,30668407,99%,QIAgen RNeasy QIAzol,NA,NA,NA,10865,Adult - Senior,Postnatal,Liver.youngAdult.45,3.4898435668
+299,5551,Yes,Human,Liver,youngAdult,Male,WINDU 52 lane 7,39 years post birth,27123189,26836930,99%,QIAgen RNeasy QIAzol,NA,NA,NA,14515,Adult - Senior,Postnatal,Liver.youngAdult.46,3.40081535138
+300,5563,Yes,Human,Liver,youngAdult,Male,OBIWAN 157 lane 7,39 years post birth,33044165,32863201,99%,QIAgen RNeasy QIAzol,NA,NA,NA,14515,Adult - Senior,Postnatal,Liver.youngAdult.47,3.54977924175
+256,6106,Yes,Human,Liver,olderMidAge,Male,OBIWAN 203 lane 7,55 years post birth,36843814,36106221,98%,QIAgen RNeasy DTT,8.1,NA,NA,20355,Adult - Senior,Postnatal,Liver.olderMidAge.48,3.33441470631
+266,5512,Yes,Human,Liver,senior,Male,WINDU 52 lane 3,58 years post birth,28444601,28240751,99%,QIAgen RNeasy QIAzol,NA,NA,NA,21450,Adult - Senior,Postnatal,Liver.senior.49,3.20804715395
+271,5571,Yes,Human,Liver,senior,Male,WINDU 52 lane 8,58 years post birth,25529516,25292965,99%,QIAgen RNeasy QIAzol,NA,NA,NA,21450,Adult - Senior,Postnatal,Liver.senior.50,3.243476781
+118,3590,Yes,Human,Testis,4wpc,Male,WINDU 46 lane 1,CS13,29687078,28495609,96%,QIAgen RNeasy DTT,7.8,NA,11993,28,Early Gestation,Prenatal,Testis.4wpc.1,2.8675980531
+141,5916,Yes,Human,Testis,5wpc,Male,OBIWAN 198 lane 3,5 weeks,21140751,21016502,99%,QIAgen RNeasy DTT,7.9,NA,12729,35,Early Gestation,Prenatal,Testis.5wpc.2,2.23598000452
+142,5958,Yes,Human,Testis,5wpc,Male,WINDU 104 lane 7,5 weeks,34244365,33849954,99%,QIAgen RNeasy DTT,8.7,NA,12871,35,Early Gestation,Prenatal,Testis.5wpc.3,1.98262546726
+146,2090,Yes,Human,Testis,6wpc,Male,VADER 145 lane 4,CS 18,22388539,22190148,99%,QIAgen RNeasy QIAzol,7.6,NA,11771,44,Early Gestation,Prenatal,Testis.6wpc.4,1.78364024564
+151,3677,Yes,Human,Testis,6wpc,Male,WINDU 47 lane 4,CS18,31470236,31117648,99%,QIAgen RNeasy DTT,8.5,NA,12006,44,Early Gestation,Prenatal,Testis.6wpc.5,1.60980476055
+172,3642,Yes,Human,Testis,7wpc,Male,WINDU 47 lane 3,CS19,28108797,27450137,98%,QIAgen RNeasy DTT,9,NA,11724,48,Early Gestation,Prenatal,Testis.7wpc.6,1.78718641762
+157,2015,Yes,Human,Testis,7wpc,Male,OBIWAN 133 lane 6,CS21,38233474,37908387,99%,QIAgen RNeasy QIAzol,7.7,NA,11731,52,Early Gestation,Prenatal,Testis.7wpc.7,2.20091918527
+170,3640,Yes,Human,Testis,7wpc,Male,WINDU 46 lane 1,CS21,40496156,39558802,98%,QIAgen RNeasy DTT,9.2,NA,11965,52,Early Gestation,Prenatal,Testis.7wpc.8,1.54192865267
+177,1990,Yes,Human,Testis,8wpc,Male,VADER 142 lane 8,CS 22,21146211,21010253,99%,QIAgen RNeasy QIAzol,7.3,NA,11736,54,Early Gestation,Prenatal,Testis.8wpc.9,1.6382102995
+183,2020,Yes,Human,Testis,8wpc,Male,OBIWAN 100 lane 3 / VADER 144 lane 1,8 weeks,44254707,43797495,99%,QIAgen RNeasy QIAzol,5.1,NA,11740,56,Early Gestation,Prenatal,Testis.8wpc.10,3.18969587581
+178,1991,Yes,Human,Testis,8wpc,Male,OBIWAN 137 lane 1,CS 23,33420326,32920165,99%,QIAgen RNeasy QIAzol,5.2,NA,11785,57,Early Gestation,Prenatal,Testis.8wpc.11,1.45861779243
+212,2074,Yes,Human,Testis,9wpc,Male,VADER 145 lane 2,9 weeks,29265268,28513616,97%,QIAgen RNeasy QIAzol,7.1,NA,11768,63,Early Gestation,Prenatal,Testis.9wpc.12,1.74629391471
+215,5926,Yes,Human,Testis,9wpc,Male,OBIWAN 198 lane 4,9 weeks,33565734,33326533,99%,QIAgen RNeasy DTT,7.5,NA,12733,63,Early Gestation,Prenatal,Testis.9wpc.13,2.0464385102
+1,1988,Yes,Human,Testis,10wpc,Male,OBIWAN 137 lane 1,10 weeks,27666438,27330908,99%,QIAgen RNeasy QIAzol,6.5,NA,11727,70,Early Gestation,Prenatal,Testis.10wpc.14,1.42209240298
+9,3655,Yes,Human,Testis,10wpc,Male,WINDU 47 lane 3,10 weeks,46506769,45826494,99%,QIAgen RNeasy DTT,9.2,NA,11950,70,Early Gestation,Prenatal,Testis.10wpc.15,1.87707489722
+26,2110,Yes,Human,Testis,11wpc,Male,OBIWAN 137 lane 1,11 weeks,32172874,31889099,99%,QIAgen RNeasy QIAzol,8,NA,11798,77,Late Gestation,Prenatal,Testis.11wpc.16,1.82788497679
+36,5934,Yes,Human,Testis,11wpc,Male,OBIWAN 198 lane 4,11 weeks,30378587,30169910,99%,QIAgen RNeasy DTT,9,NA,12718,77,Late Gestation,Prenatal,Testis.11wpc.17,1.6922958679
+43,3775,Yes,Human,Testis,12wpc,Male,WINDU 47 lane 5,12 weeks,26953107,25891367,96%,QIAgen RNeasy DTT,6.7,NA,1257,84,Late Gestation,Prenatal,Testis.12wpc.18,2.61272895229
+50,5935,Yes,Human,Testis,12wpc,Male,OBIWAN 203 lane 3,12 weeks,16735201,16589902,99%,QIAgen RNeasy DTT,5.9,NA,12732,84,Late Gestation,Prenatal,Testis.12wpc.19,2.07305539884
+59,5716,Yes,Human,Testis,13wpc,Male,OBIWAN 179 lane 8,13 weeks,22000080,21807185,99%,QIAgen RNeasy DTT,6.2,NA,12525,91,Late Gestation,Prenatal,Testis.13wpc.20,3.12492873339
+61,5937,Yes,Human,Testis,13wpc,Male,OBIWAN 200 lane 8,13 weeks,39357749,38775299,99%,QIAgen RNeasy DTT,8.2,NA,12869,91,Late Gestation,Prenatal,Testis.13wpc.21,2.00426952048
+64,5940,Yes,Human,Testis,13wpc,Male,OBIWAN 198 lane 4,13 weeks,32219864,31998154,99%,QIAgen RNeasy DTT,9.4,NA,12715,91,Late Gestation,Prenatal,Testis.13wpc.22,2.1987781516
+70,5652,Yes,Human,Testis,16wpc,Male,OBIWAN 171 lane 5,16 weeks,19589699,19142753,98%,QIAgen RNeasy DTT,7.9,NA,12508,112,Late Gestation,Prenatal,Testis.16wpc.23,2.07276990995
+80,5694,Yes,Human,Testis,16wpc,Male,WINDU 67 lane 4,16 weeks,40943433,40290048,98%,QIAgen RNeasy DTT,8.5,NA,12270,112,Late Gestation,Prenatal,Testis.16wpc.24,1.71457499681
+101,5778,Yes,Human,Testis,19wpc,Male,OBIWAN 179 lane 6,19 weeks,45058450,44511125,99%,QIAgen RNeasy DTT,8.2,NA,12520,133,Late Gestation,Prenatal,Testis.19wpc.27,4.32716317206
+222,5560,Yes,Human,Testis,infant,Male,OBIWAN 157 lane 7,221 days post birth,28946644,28756264,99%,QIAgen RNeasy QIAzol,NA,NA,NA,501,Newborn - Teenager,Postnatal,Testis.infant.28,3.40559906837
+217,5523,Yes,Human,Testis,infant,Male,WINDU 52 lane 4,270 days post birth,34767631,34473778,99%,QIAgen RNeasy QIAzol,NA,NA,NA,550,Newborn - Teenager,Postnatal,Testis.infant.29,3.69079434265
+289,5841,Yes,Human,Testis,toddler,Male,OBIWAN 203 lane 4,1 year post birth,30845577,30089533,98%,QIAgen RNeasy DTT,8.1,NA,NA,645,Newborn - Teenager,Postnatal,Testis.toddler.31,3.64441096215
+312,5561,Yes,Human,Testis,youngTeenager,Male,OBIWAN 157 lane 7,14 years post birth,18990366,18883908,99%,QIAgen RNeasy QIAzol,NA,NA,NA,5390,Newborn - Teenager,Postnatal,Testis.youngTeenager.32,2.57060274196
+313,5564,Yes,Human,Testis,youngTeenager,Male,OBIWAN 157 lane 7,14 years post birth,53444908,35487342,66%,QIAgen RNeasy QIAzol,NA,NA,NA,5390,Newborn - Teenager,Postnatal,Testis.youngTeenager.33,2.74347226918
+257,5526,Yes,Human,Testis,oldTeenager,Male,WINDU 52 lane 5,16 years post birth,28086888,27861928,99%,QIAgen RNeasy QIAzol,NA,NA,NA,6120,Adult - Senior,Postnatal,Testis.oldTeenager.34,1.43282208099
+258,5546,Yes,Human,Testis,oldTeenager,Male,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,17 years post birth,75829169,75406028,99%,QIAgen RNeasy QIAzol,NA,NA,NA,6485,Adult - Senior,Postnatal,Testis.oldTeenager.35,1.54646330027
+306,6107,Yes,Human,Testis,youngAdult,Male,OBIWAN 203 lane 7,28 years post birth,35544053,32348958,91%,QIAgen RNeasy DTT,9,NA,NA,10500,Adult - Senior,Postnatal,Testis.youngAdult.36,1.58304089064
+296,5535,Yes,Human,Testis,youngAdult,Male,OBIWAN 157 lane 4 WINDU 52 lane 6 OBIWAN 202 lanes 5 and 6,29 years post birth,57721711,57223257,99%,QIAgen RNeasy QIAzol,NA,NA,NA,10865,Adult - Senior,Postnatal,Testis.youngAdult.37,1.37789804398
+301,5566,Yes,Human,Testis,youngAdult,Male,WINDU 52 lane 8,29 years post birth,31821758,31651416,99%,QIAgen RNeasy QIAzol,NA,NA,NA,10865,Adult - Senior,Postnatal,Testis.youngAdult.38,1.14261523471
+310,5550,Yes,Human,Testis,youngMidAge,Male,WINDU 52 lane 7,39 years post birth,41199601,40784899,99%,QIAgen RNeasy QIAzol,NA,NA,NA,14515,Adult - Senior,Postnatal,Testis.youngMidAge.39,1.67768473233
+255,6095,Yes,Human,Testis,olderMidAge,Male,OBIWAN 203 lane 7,46 years post birth,44534931,44047446,99%,QIAgen RNeasy DTT,7.4,NA,NA,17070,Adult - Senior,Postnatal,Testis.olderMidAge.40,1.37723722875
+268,5518,Yes,Human,Testis,senior,Male,WINDU 52 lane 4,55 years post birth,25989887,25802362,99%,QIAgen RNeasy QIAzol,NA,NA,NA,20355,Adult - Senior,Postnatal,Testis.senior.41,1.07141239412

@@ -1,0 +1,81 @@
+/media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/RNAEditingIndex -d /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/TestResources/BAMs -f _sampled_with_0.1.Aligned.sortedByCoord.out.bam.AluChr1Only.bam -l /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/test/test_log -o /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/test/test_output_mpileup -os /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/test/test_output_index --genome hg38 -rb /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/TestResources/AnnotationAndRegions/ucscHg38Alu.OnlyChr1.bed.gz --refseq /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/TestResources/AnnotationAndRegions/ucscHg38RefSeqCurated.OnlyChr1.bed.gz --snps /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/TestResources/AnnotationAndRegions/ucscHg38CommonGenomicSNPs150.OnlyChr1.bed.gz --genes_expression /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/TestResources/AnnotationAndRegions/ucscHg38GTExGeneExpression.OnlyChr1.bed.gz --verbose --stranded --paired_end
+
+
+
+
+
+
+
+STAR --genomeDir /media/NAS1/Sammi_NAS1/ref/rna-GRCh38-mm10/refdata-gex-GRCh38-and-mm10-2020-A/star/ \
+--runThreadN 6 \
+--readFilesIn /media/Home_Raid1_Voyager/sammi/sammi_Scratch/bulk_teratoma/M_1_S1_L001_R1_001.fastq.gz /media/Home_Raid1_Voyager/sammi/sammi_Scratch/bulk_teratoma/M_1_S1_L001_R2_001.fastq.gz \
+--outFileNamePrefix /media/Home_Raid1_Voyager/sammi/sammi_Scratch/RNA_editing/bulk/M_1 \
+--outSAMtype BAM SortedByCoordinate \
+--outSAMunmapped Within \
+--outSAMattributes Standard \
+--readNameSeparator space \
+--outStd SAM \
+--outSAMmultNmax -1 \
+--readFilesCommand zcat
+
+STAR --genomeDir /media/NAS1/Sammi_NAS1/ref/rna-GRCh38-mm10/refdata-gex-GRCh38-and-mm10-2020-A/star/ \
+--runThreadN 6 \
+--readFilesIn /media/Home_Raid1_Voyager/sammi/sammi_Scratch/bulk_teratoma/M_2_S2_L001_R1_001.fastq.gz /media/Home_Raid1_Voyager/sammi/sammi_Scratch/bulk_teratoma/M_2_S2_L001_R2_001.fastq.gz \
+--outFileNamePrefix /media/Home_Raid1_Voyager/sammi/sammi_Scratch/RNA_editing/bulk/M_2 \
+--outSAMtype BAM SortedByCoordinate \
+--outSAMunmapped Within \
+--outSAMattributes Standard \
+--readNameSeparator space \
+--outStd SAM \
+--outSAMmultNmax -1 \
+--readFilesCommand zcat
+
+## try standard pipeline on bam file
+# bulk data no need to be parsed, and requires a different pipeline than umi-tools, samtools rmdup is obsolete, use markdup instead
+# index after sort by position
+samtools index bulk/M_1/M_1Aligned.sortedByCoord.out.bam
+samtools index bulk/M_2/M_2Aligned.sortedByCoord.out.bam
+
+# fixmate requires sort by name
+samtools sort -n -o bulk/M_1/M_1Aligned.sortedByCoord.out.namesort.bam bulk/M_1/M_1Aligned.sortedByCoord.out.bam 
+samtools sort -n -o bulk/M_2/M_2Aligned.sortedByCoord.out.namesort.bam bulk/M_2/M_2Aligned.sortedByCoord.out.bam 
+
+samtools fixmate -m bulk/M_1/M_1Aligned.sortedByCoord.out.namesort.bam bulk/M_1/M_1Aligned.sortedByCoord.out.fixmate.bam
+samtools fixmate -m bulk/M_2/M_2Aligned.sortedByCoord.out.namesort.bam bulk/M_2/M_2Aligned.sortedByCoord.out.fixmate.bam
+
+# markdup requires sort by coordinates
+samtools sort -o bulk/M_1/M_1Aligned.sortedByCoord.out.possort.bam bulk/M_1/M_1Aligned.sortedByCoord.out.fixmate.bam
+samtools sort -o bulk/M_2/M_2Aligned.sortedByCoord.out.possort.bam bulk/M_2/M_2Aligned.sortedByCoord.out.fixmate.bam
+
+samtools markdup -r bulk/M_1/M_1Aligned.sortedByCoord.out.possort.bam bulk/M_1/M_1Aligned.sortedByCoord.out.markdup.bam
+samtools markdup -r bulk/M_2/M_2Aligned.sortedByCoord.out.possort.bam bulk/M_2/M_2Aligned.sortedByCoord.out.markdup.bam
+
+/media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/RNAEditingIndex -d /media/Home_Raid1_Voyager/sammi/sammi_Scratch/RNA_editing/AEI/H1_20230110_copy \
+-l /media/Scratch_SSD_Voyager/sammi/RNA_editing/AEI_bulk_teratoma_v1/M_1_log \
+-os /media/Scratch_SSD_Voyager/sammi/RNA_editing/AEI_bulk_teratoma_v1/M_1_output_index \
+-f M_1Aligned.sortedByCoord.out.markdup.headerfixed.bam \
+-o /media/Home_Raid1_Voyager/sammi/sammi_Scratch/RNA_editing/AEI_bulk_teratoma_v1/M_1_output_mpileup \
+--genes_expression /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/Resources/GenesExpression/HomoSapiens/ucscHg38GTExGeneExpression.bed.gz \
+--refseq /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/Resources/RefSeqAnnotations/HomoSapiens/ucscHg38RefSeqCurated.bed.gz \
+--snps /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/Resources/SNPs/HomoSapiens/ucscHg38CommonGenomicSNPs150.bed.gz \
+-gf /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/Resources/Genomes/HomoSapiens/ucscHg38Genome.fa \
+-rb /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/Resources/Regions/HomoSapiens/ucscHg38Alu.bed.gz \
+--genome hg38 \
+--verbose \
+--paired \
+--stranded #this option was left as unstranded for GTEX data
+
+/media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/RNAEditingIndex -d /media/Home_Raid1_Voyager/sammi/sammi_Scratch/RNA_editing/AEI/H1_20230110_copy \
+-l /media/Scratch_SSD_Voyager/sammi/RNA_editing/AEI_bulk_teratoma_v1/M_2_log \
+-os /media/Scratch_SSD_Voyager/sammi/RNA_editing/AEI_bulk_teratoma_v1/M_2_output_index \
+-f M_2Aligned.sortedByCoord.out.markdup.headerfixed.bam \
+-o /media/Home_Raid1_Voyager/sammi/sammi_Scratch/RNA_editing/AEI_bulk_teratoma_v1/M_2_output_mpileup \
+--genes_expression /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/Resources/GenesExpression/HomoSapiens/ucscHg38GTExGeneExpression.bed.gz \
+--refseq /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/Resources/RefSeqAnnotations/HomoSapiens/ucscHg38RefSeqCurated.bed.gz \
+--snps /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/Resources/SNPs/HomoSapiens/ucscHg38CommonGenomicSNPs150.bed.gz \
+-gf /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/Resources/Genomes/HomoSapiens/ucscHg38Genome.fa \
+-rb /media/Home_Raid1_Voyager/sammi/anaconda3/ENTER/envs/aei_v1/bin/AEI/RNAEditingIndexer/Resources/Regions/HomoSapiens/ucscHg38Alu.bed.gz \
+--genome hg38 \
+--verbose \
+--paired \
+--stranded #this option was left as unstranded for GTEX data

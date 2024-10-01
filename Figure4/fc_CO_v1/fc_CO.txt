@@ -1,0 +1,7 @@
+featureCounts -a /media/NAS1/Sammi_NAS1/ref/rna-GRCh38/refdata-gex-GRCh38-2020-A/genes/genes.gtf -o /media/Scratch_SSD_Voyager/sammi/RNA_editing/fc_CO_v1/counts_all --primary -B -C -T 8 /media/Scratch_SSD_Voyager/sammi/RNA_editing/AEI_CO_v2/tmp_20230627/*.bam
+#-p
+
+
+Rscript /media/Scratch_SSD_Voyager/sammi/RNA_editing/fc_CO_v1/CountsToTPM.R /media/Scratch_SSD_Voyager/sammi/RNA_editing/fc_CO_v1/counts_all
+
+python /media/Scratch_SSD_Voyager/sammi/RNA_editing/fc_CO_v1/CollectADAR.py > /media/Scratch_SSD_Voyager/sammi/RNA_editing/fc_CO_v1/adar_exp_tpm.txt

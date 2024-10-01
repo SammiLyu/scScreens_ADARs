@@ -1,0 +1,46 @@
+### this file lists sources of data included in this study and methods used to obtain them
+### output: fastq files (sequencing read)
+
+---------------------------------------------------------------------------------
+-------------------------Wild-type H1 Teratoma Data------------------------------
+### McDonald, D., Wu, Y., Dailamy, A., Tat, J., Parekh, U., Zhao, D., Hu, M., Tipps, A., Zhang, K., & Mali, P. (2020). Defining the Teratoma as a Model for Multi-lineage Human Development. Cell, 183(5), 1402-1419.e18. https://doi.org/10.1016/j.cell.2020.10.018
+## SRA Accession
+# download sra toolkit
+wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+tar -vxzf sratoolkit.tar.gz
+# write path & check install success
+export PATH=$PATH:<download-path>/sra-toolkit/sratoolkit.3.0.0-ubuntu64/bin
+which fastq-dump
+# test
+#fastq-dump --stdout -X 2 SRR390728
+# fetch data into a dir - prefetch ACC# -O output/dir (--max-size, default is 20g)
+prefetch SRR12446310 -O <data-path>/4H1/SRR12446310 --max-size 22g
+nohup fasterq-dump SRR12446310 -p -S
+head -n 12 SRR12446310*
+nohup gzip SRR12446310_1.fastq
+# https://kb.10xgenomics.com/hc/en-us/articles/115003802691-How-do-I-prepare-Sequence-Read-Archive-SRA-data-from-NCBI-for-Cell-Ranger-
+# rename files
+SRR9291388_1.fastq.gz -> SRR9291388_S1_L001_R1_001.fastq.gz
+SRR9291388_2.fastq.gz -> SRR9291388_S1_L001_R2_001.fastq.gz
+# cellranger
+nohup <cellranger-path>/cellranger-6.1.2/cellranger count --id=<sample-name-out> --transcriptome=<ref-path>/rna-GRCh38-mm10/refdata-gex-GRCh38-and-mm10-2020-A --fastqs=<fastq-path> --sample=<sample-name-in> --expect-cells=10000 --project=<project-name> --chemistry=SC3Pv2 --localcores=4 --localmem=40
+#nohup /opt/cellranger-6.1.2/cellranger count --id=dm-ter1 --transcriptome=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/ref/rna-GRCh38-mm10/refdata-gex-GRCh38-and-mm10-2020-A --fastqs=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/Processed_Reads/Teratoma_Yan_4H1 --sample=SRR12446310 --expect-cells=10000 --project=H1_WT --chemistry=SC3Pv2 --localcores=4 --localmem=40
+#nohup /opt/cellranger-6.1.2/cellranger count --id=dm-ter2 --transcriptome=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/ref/rna-GRCh38-mm10/refdata-gex-GRCh38-and-mm10-2020-A --fastqs=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/Processed_Reads/Teratoma_Yan_4H1 --sample=SRR12446311 --expect-cells=10000 --project=H1_WT --chemistry=SC3Pv2 --localcores=4 --localmem=40
+#nohup /opt/cellranger-6.1.2/cellranger count --id=dm-ter3 --transcriptome=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/ref/rna-GRCh38-mm10/refdata-gex-GRCh38-and-mm10-2020-A --fastqs=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/Processed_Reads/Teratoma_Yan_4H1 --sample=SRR12446312 --expect-cells=10000 --project=H1_WT --chemistry=SC3Pv2 --localcores=4 --localmem=40
+#nohup /opt/cellranger-6.1.2/cellranger count --id=dm-ter4 --transcriptome=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/ref/rna-GRCh38-mm10/refdata-gex-GRCh38-and-mm10-2020-A --fastqs=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/Processed_Reads/Teratoma_Yan_4H1 --sample=SRR12446313 --expect-cells=10000 --project=H1_WT --chemistry=SC3Pv2 --localcores=4 --localmem=40
+
+# v3 for the cell line teratoma
+#nohup /opt/cellranger-6.1.2/cellranger count --id=H9-ter1 --transcriptome=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/ref/rna-GRCh38-mm10/refdata-gex-GRCh38-and-mm10-2020-A --fastqs=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/Processed_Reads/Teratoma_Yan_H9 --sample=SRR12446326 --expect-cells=10000 --project=H9_WT --chemistry=SC3Pv3 --localcores=4 --localmem=40
+#nohup /opt/cellranger-6.1.2/cellranger count --id=HUES62-ter1 --transcriptome=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/ref/rna-GRCh38-mm10/refdata-gex-GRCh38-and-mm10-2020-A --fastqs=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/Processed_Reads/Teratoma_Yan_HUES62 --sample=SRR12446327 --expect-cells=10000 --project=HUES62_WT --chemistry=SC3Pv3 --localcores=4 --localmem=40
+#nohup /opt/cellranger-6.1.2/cellranger count --id=PGP1-ter1 --transcriptome=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/ref/rna-GRCh38-mm10/refdata-gex-GRCh38-and-mm10-2020-A --fastqs=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/Processed_Reads/Teratoma_Yan_PGP1 --sample=SRR12446328 --expect-cells=10000 --project=PGP1_WT --chemistry=SC3Pv3 --localcores=4 --localmem=40
+
+# v2 for the cortical organoid (Muotri data)
+#nohup /opt/cellranger-6.1.2/cellranger count --id=co_1mo --transcriptome=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/ref/rna-GRCh38/refdata-gex-GRCh38-2020-A --fastqs=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/Processed_Reads/cortical_organoids --sample=SRR8948931 --expect-cells=10000 --project=cortical_organoids --chemistry=SC3Pv2 --localcores=4 --localmem=40
+#nohup /opt/cellranger-6.1.2/cellranger count --id=co_3mo --transcriptome=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/ref/rna-GRCh38/refdata-gex-GRCh38-2020-A --fastqs=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/Processed_Reads/cortical_organoids --sample=SRR8948932 --expect-cells=10000 --project=cortical_organoids --chemistry=SC3Pv2 --localcores=4 --localmem=40
+#nohup /opt/cellranger-6.1.2/cellranger count --id=co_6mo --transcriptome=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/ref/rna-GRCh38/refdata-gex-GRCh38-2020-A --fastqs=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/Processed_Reads/cortical_organoids --sample=SRR8948933 --expect-cells=10000 --project=cortical_organoids --chemistry=SC3Pv2 --localcores=4 --localmem=40
+#nohup /opt/cellranger-6.1.2/cellranger count --id=co_10mo --transcriptome=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/ref/rna-GRCh38/refdata-gex-GRCh38-2020-A --fastqs=/media/Home_Raid1_Voyager/sammi/Sammi_NAS1/Processed_Reads/cortical_organoids --sample=SRR8948934 --expect-cells=10000 --project=cortical_organoids --chemistry=SC3Pv2 --localcores=4 --localmem=40
+
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+
+

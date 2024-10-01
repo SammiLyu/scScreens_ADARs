@@ -1,0 +1,6 @@
+featureCounts -a /media/NAS1/Sammi_NAS1/ref/hg19/genes/genes.gtf -o /media/Scratch_SSD_Voyager/sammi/RNA_editing/fc_OD_v1/counts_all --primary -B -C -T 8 /media/Scratch_SSD_Voyager/sammi/RNA_editing/OrganDev_v1/nomultiseg/*.bam
+#-p
+
+Rscript /media/Scratch_SSD_Voyager/sammi/RNA_editing/fc_OD_v1/CountsToTPM.R /media/Scratch_SSD_Voyager/sammi/RNA_editing/fc_OD_v1/counts_all
+
+python /media/Scratch_SSD_Voyager/sammi/RNA_editing/fc_OD_v1/CollectADAR.py > /media/Scratch_SSD_Voyager/sammi/RNA_editing/fc_OD_v1/adar_exp_tpm.txt
